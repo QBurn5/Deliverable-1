@@ -1,35 +1,127 @@
 *{
-    margin: 0;
+    margin: 3px;
     padding: 0;
 }
-.header{ 
-    min-height= 100vh;
-    width= 100%;
-   
-
-    nav{
-        display:flex;
-        padding: 2% 6%;
-        justify-content:space-between;
-        align-items: center;
+@media screen and (max-width: 768px) {
+    .ccc-img {
+        max-width: 100px !important;
     }
-    nav img{
-         width: 150px;
+}
+@media screen and (max-width: 768px) {
+    .header {
+        max-height: 100px;
+        width: 100%;
+        padding: 10px;
     }
-    .nav-links{
-        flex: 1;
-        text-align: right;
+    .parent {
+        margin-top: 15px !important;
     }
-    .nav-links ul li{
-        list-style: none;
-        display: inline-block;
-        padding: 8px 12px;
-        position: relative;
+    .link-space {
+        padding: 2px !important;
     }
-    .nav-links ul li a{
-        color: #ff00ff;
+    a:link {
         text-decoration: none;
-        font-size: 13px;
+        color: #7944e6;
+        font-family: 'Bungee', cursive;
+        font-size: 10px !important;
     }
+}
+.header { 
+    max-height: 100px ;
+    width: 100%;
+    padding: 10px;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin-top: 30px;
+    list-style-type: none;
+}
+.ccc-img {
+    max-width: 150px;
+}
+a:hover {
+    color: #10fdff;
+}
+.link-space {
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+    color: #7944e6;
+    font-family: 'Bungee', cursive;
+    font-size: 15px;
+  }
+.link-center {
+    text-align: center;
+}
+body {
+    margin: 10px;
+}
+.About-Section {
+    background-color: #ff00ff;   
+}
+.about-text {
+    max-width: 500px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.food-truck-img {
+    width: 100%;
+    max-width: 200px;
+    padding: 30px 20px 15px 75px;
+}
+.about-title {
+    font-family: 'Bungee', cursive;
+}
+.about-description {
+    font-family: 'Bungee', cursive;
+}
+
+@media screen and (min-width: 768px) {
+    .flex-container {
+        display: flex;
+    }
+    .food-truck-img {
+        width: 100%;
+        max-width: 300px;
+        padding: 25px 25px 10px 75px;
+    }
+}
+.Section {
+    border-style: solid;
+    border-color: #7944e6;
+    margin: 50px;
+    text-align: center;
+}
+.P-coffee {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+.coffee-img {
+    height: 200px;
+    width: 100%;
+}
+.P-cream {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+.cream-img {
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+}
+.P-cookie {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+.cookie-img {
+    height: 200px;
+    width: 100%;
+}
+
    
 
